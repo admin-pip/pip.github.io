@@ -1,0 +1,290 @@
+﻿body {
+    font-family: Verdana, Arial, san-serif;
+    background-image: url(https://i.imgur.com/SLB4W9M.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #585858;
+    color: #585858;
+}
+
+header {
+    background-color: #585858;
+    background-image: url(https://i.imgur.com/8GY2Twe.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    padding-bottom: 10em;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6e6e6;
+    min-width: 1000px;
+    max-width: 1280px;
+}
+
+nav {
+    margin: 0;
+    background-color: #cfcfcf;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #cfcfcf;
+    margin-left: 15em;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #585858;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.active {
+    border: 2px dashed #585858;
+    color: #585858 !important;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.topnav a:hover {
+    border: 2px solid #585858;
+}
+
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+    display: block;
+    text-align: left;
+    background-color: #585858;
+    color: #585858;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.img {
+    content: url(https://i.imgur.com/OqlFEaG.jpg);
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+inside {
+    padding-left: 6em;
+    padding-right: 6em;
+    display: block;
+    text-align: center;    
+    background-color: #cfcfcf;
+    color: #585858;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+/*.home-page-img {
+    background-image: url(Home.jpg);
+    background-position: right;
+}*/
+
+#clear {
+    clear: both;
+}
+
+#desktop {
+    display: inline;
+}
+
+#mobile {
+    display: none;
+}
+
+footer {
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+    background-color: #CFCFCF;
+    font-size: 1em;
+    text-align: center;
+    font-style: italic;
+}
+
+@media screen and (max-width: 1020px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        padding: 0.05em;
+        background-image: url(https://i.imgur.com/tWOqq1J.png);
+        background-position: center;
+    }
+
+    #wrapper {
+        width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {        
+        padding: 0.05em;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    main {
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin: 0;
+        font-size: 90%;
+    }
+
+    #hero {
+        zoom: 1.5;
+    }
+
+    .img{
+        zoom: 0;
+    }
+
+    #clear {
+        padding-left: 0.65em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(.active) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        display: block;
+        color: #6F6F6F;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        padding: 0.05em;
+        background-image: url(https://i.imgur.com/tWOqq1J.png);
+        background-position: center;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    .topnav {
+        margin-left: 0;
+    }
+
+        .topnav.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+    .active {
+        background-color: #CFCFCF !important;
+        border: none;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        background-color: #CFCFCF !important;
+    }
+
+    .topnav.responsive {
+        display: block;
+        width: 100%;
+        text-align: left;
+        float: none;
+        position: relative;
+    }
+
+        .topnav.responsive a:hover {
+            
+        }
+
+    form {
+        width: 380px;
+        margin: auto;
+        float: left;
+    }
+
+    input, textarea {
+        width: 380px;
+        float: left;
+    }
+
+    #submit {
+        display: block;
+    }
+
+    main {
+        padding-left: 0;
+        padding-right: 0;        
+    }
+
+    .img {
+        zoom: 0;
+    }
+
+    inside {
+        
+    }
+
+    footer {
+        padding: 0.5em;
+        margin: 0;
+    }
+
+    #mobile {
+        display: inline;
+    }
+
+    #desktop {
+        display: none;
+    }
+
+    #clear {
+        padding-left: 0.1em;
+    }
+
+    #wrapper {
+        width: 100%;
+        min-width: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    inside {
+        padding-left: 0.25em;
+        padding-right: 0.25em;
+    }
+}
+
+@viewport {
+    width: device-width;
+}
+
+@=ms-viewport {
+    width: device-width;
+}
