@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-family: Verdana, Arial, san-serif;
     background-image: url(https://i.imgur.com/SLB4W9M.jpg);
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ nav {
 .topnav {
     overflow: hidden;
     background-color: #cfcfcf;
-    margin-left: 15em;
+    margin-left: 10em;
 }
 
 .topnav a {
@@ -155,9 +155,13 @@ footer {
     #hero {
         zoom: 1.5;
     }
-
+    
     .img{
         zoom: 0;
+    }
+
+    .topnav {
+        margin-left: auto;
     }
 
     #clear {
