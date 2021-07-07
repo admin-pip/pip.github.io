@@ -285,13 +285,11 @@ div.desc {
         zoom: 0;
     }
 
-    inside {
-        text-align: center;
-    }
-
     #container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        padding-left: 0.25em;
+        padding-right: 0.25em;
     }
 
     footer {
@@ -321,6 +319,7 @@ div.desc {
     inside {
         padding-left: 0.25em;
         padding-right: 0.25em;
+        text-align: center;
     }
 }
 
