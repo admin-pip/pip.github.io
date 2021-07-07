@@ -330,7 +330,6 @@ div.desc {
     form {
         width: 380px;
         margin: auto;
-        float: left;
     }
 
     input, textarea {
@@ -339,7 +338,7 @@ div.desc {
     }
 
     #submit {
-        display: block;
+        display: block;        
     }
 
     main {
