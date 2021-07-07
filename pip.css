@@ -291,6 +291,10 @@ div.desc {
         padding-left: 0.10em;
         padding-right: 0.10em;
     }
+    
+    div.gallery {
+    margin: 0.25em;
+    }
 
     footer {
         padding: 0.5em;
