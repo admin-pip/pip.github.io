@@ -296,8 +296,8 @@ div.desc {
     #container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        padding-left: 0.5em;
-        padding-right: 0.5em;
+        padding-left: 1em;
+        padding-right: 1em;
         text-align: center;
     }
     
