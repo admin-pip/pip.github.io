@@ -71,6 +71,19 @@ main {
     padding-bottom: 2em;
 }
 
+#container {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    display: block;
+    text-align: center;
+    background-color: #cfcfcf;
+    color: #585858;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .img {
     content: url(https://i.imgur.com/OqlFEaG.jpg);
     width: 80%;
@@ -116,7 +129,28 @@ footer {
     font-style: italic;
 }
 
-@media screen and (max-width: 1020px) {
+div.gallery {
+    margin: 1.5em;
+    border: 2px solid #585858;
+    float: left;
+    width: 180px;
+}
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
     body {
         margin: 0;
         padding: 0;
@@ -252,7 +286,7 @@ footer {
     }
 
     inside {
-        
+        text-align: center;
     }
 
     footer {
