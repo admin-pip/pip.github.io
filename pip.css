@@ -185,6 +185,14 @@ div.desc {
         margin: 0;
         font-size: 90%;
     }
+    
+    #container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        text-align: center;
+    }
 
     #hero {
         zoom: 1.5;
