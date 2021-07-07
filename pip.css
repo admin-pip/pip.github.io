@@ -288,8 +288,8 @@ div.desc {
     #container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        padding-left: 0.25em;
-        padding-right: 0.25em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
         text-align: center;
     }
     
