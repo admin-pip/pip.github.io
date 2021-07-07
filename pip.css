@@ -36,16 +36,16 @@ nav {
     margin-left: 10em;
 }
 
-.topnav a {
-    float: left;
-    display: block;
-    color: #585858;
-    font-weight: bold;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 16px;
-}
+    .topnav a {
+        float: left;
+        display: block;
+        color: #585858;
+        font-weight: bold;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 16px;
+    }
 
 .active {
     border: 2px dashed #585858;
@@ -96,12 +96,71 @@ inside {
     padding-left: 6em;
     padding-right: 6em;
     display: block;
-    text-align: center;    
+    text-align: center;
     background-color: #cfcfcf;
     color: #585858;
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
+label {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+/* Centre the page */
+.body {
+    display: block;
+    margin: 0 auto;
+    width: 576px;
+}
+
+/* Centre the form within the page */
+form {
+    font-weight: bold;
+    color: #585858;
+    margin: 0 auto;
+    width: 459px;
+}
+
+input, textarea {
+    width: 459px;
+    height: 27px;
+    background: #efefef;
+    border: 2px solid #6F6F6F;
+    padding: 10px;
+    margin-top: 3px;
+    font-size: 0.9em;
+    color: #3a3a3a;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 213px;
+}
+
+    input:focus, textarea:focus {
+        border: 1px solid #97d6eb;
+    }
+
+#submit {
+    width: 127px;
+    height: 38px;
+    border: 2px solid #6F6F6F;
+    background-color: #b8b8b8;
+    color: #585858;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+    #submit:hover {
+        opacity: .9;
+    }
 
 /*.home-page-img {
     background-image: url(Home.jpg);
@@ -169,7 +228,7 @@ div.desc {
         padding: 0;
     }
 
-    header {        
+    header {
         padding: 0.05em;
     }
 
@@ -185,7 +244,7 @@ div.desc {
         margin: 0;
         font-size: 90%;
     }
-    
+
     #container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -197,8 +256,8 @@ div.desc {
     #hero {
         zoom: 1.5;
     }
-    
-    .img{
+
+    .img {
         zoom: 0;
     }
 
@@ -266,7 +325,6 @@ div.desc {
     }
 
         .topnav.responsive a:hover {
-            
         }
 
     form {
@@ -286,7 +344,7 @@ div.desc {
 
     main {
         padding-left: 0;
-        padding-right: 0;        
+        padding-right: 0;
     }
 
     .img {
@@ -300,9 +358,9 @@ div.desc {
         padding-right: 1em;
         text-align: center;
     }
-    
+
     div.gallery {
-    margin: 0.25em;
+        margin: 0.25em;
     }
 
     footer {
