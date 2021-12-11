@@ -1,33 +1,32 @@
 body {
-    font-family: Verdana, Arial, san-serif;
-    background-image: url(https://i.imgur.com/SLB4W9M.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-family: Verdana, Arial, san-serif;     
     background-color: #585858;
     color: #585858;
 }
 
 header {
-    background-color: #585858;
-    background-image: url(https://i.imgur.com/8GY2Twe.png);
+    background-image: url(logo.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-color: #cfcfcf;
     height: 150px;
-    padding-bottom: 10em;
+    padding-bottom: 10em;    
 }
 
 #wrapper {
-    width: 80%;
+    width: 95%;
     margin-left: auto;
-    margin-right: auto;
-    background-color: #e6e6e6;
+    margin-right: auto;  
     min-width: 1000px;
-    max-width: 1280px;
+    max-width: 1280px;   
+    border: 5px inset #fff;
 }
 
 nav {
     margin: 0;
     background-color: #cfcfcf;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
 
 .topnav {
@@ -65,6 +64,7 @@ main {
     padding-right: 2em;
     display: block;
     text-align: left;
+    background-image: url(background7.jpg);
     background-color: #585858;
     color: #585858;
     padding-top: 2em;
