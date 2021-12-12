@@ -793,7 +793,7 @@ div.desc {
         #container {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
-            padding-left: 3em;
+            padding-left: 3.25em;
             padding-right: 1em;
             text-align: center;
         }
