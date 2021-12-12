@@ -777,7 +777,7 @@ div.desc {
         }
 
         input, textarea {
-            width: 360px;
+            width: 300px;
             float: left;
         }
 
@@ -793,9 +793,13 @@ div.desc {
         #container {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
-            padding-left: 4em;
+            padding-left: 2.5em;
             padding-right: 1em;
             text-align: center;
+        }
+
+        div.gallery {
+            margin: 1em;
         }
 
         #small-container {
@@ -809,11 +813,11 @@ div.desc {
         }
 
         inside {
-            height: 2400px;
+            height: 2100px;
         }
 
         .index-top-container {
-            height: 675px;
+            height: 650px;
         }
 
         .index-top-card {
@@ -850,34 +854,34 @@ div.desc {
         }
 
         .index-mid-container {
-            height: 960px;
+            height: 710px;
         }
 
         .index-mid-left {
-            height: 295px;
+            height: 230px;
             width: 90%;
             margin-left: 1em;
-            margin-top: 1em;
+            margin-top: 0.5em;
         }
 
         .index-mid-center {
-            height: 295px;
+            height: 230px;
             width: 90%;
             margin-left: 1em;
-            margin-top: 1em;
+            margin-top: 0.5em;
         }
 
         .index-mid-right {
-            height: 295px;
+            height: 230px;
             width: 90%;
             margin-left: 1em;
-            margin-top: 1em;
+            margin-top: 0.5em;
         }
 
         .index-mid-card {
-            width: 87%;
-            margin-left: 1.25em;
-            margin-top: 1.25em;
+            width: 68%;
+            margin-left: 4.5em;
+            margin-top: 1em;
         }
 
         .index-bottom-container {
@@ -895,10 +899,6 @@ div.desc {
             width: 91%;
             padding: 1em;
             height: 325px;
-        }
-
-        div.gallery {
-            margin: 0.25em;
         }
 
         footer {
@@ -946,34 +946,39 @@ div.desc {
         }
 
         .floor-mid-container {
-            height: 960px;
+            height: 680px;
         }
 
         .floor-mid-left {
-            height: 295px;
+            height: 215px;
             width: 90%;
             margin-left: 1em;
             margin-top: 1em;
         }
 
         .floor-mid-center {
-            height: 295px;
+            height: 215px;
             width: 90%;
             margin-left: 1em;
-            margin-top: 1em;
+            margin-top: 0.25em;
         }
 
         .floor-mid-right {
-            height: 295px;
+            height: 215px;
             width: 90%;
             margin-left: 1em;
-            margin-top: 1em;
+            margin-top: 0.25em;
         }
 
         .floor-mid-card {
-            width: 87%;
-            margin-left: 1.25em;
-            margin-top: 1.25em;
+            width: 90%;
+            height: 200px;
+            margin-left: 1.5em;
+            margin-top: 0.5em;
+        }
+
+        .floor-content h4 {
+            margin-top: 1em;
         }
 
         .floor-bottom-container {
