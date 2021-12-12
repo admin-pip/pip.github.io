@@ -31,7 +31,7 @@ nav {
 .topnav {
     overflow: hidden;
     background-color: #cfcfcf;
-    margin-left: 20em;
+    margin-left: 15em;
 }
 
     .topnav a {
@@ -777,7 +777,7 @@ div.desc {
         }
 
         input, textarea {
-            width: 300px;
+            width: 325px;
             float: left;
         }
 
@@ -793,7 +793,7 @@ div.desc {
         #container {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
-            padding-left: 2.5em;
+            padding-left: 3em;
             padding-right: 1em;
             text-align: center;
         }
@@ -877,22 +877,22 @@ div.desc {
         }
 
         .index-mid-left {
-            height: 230px;
-            width: 70%;
+            height: 290px;
+            width: 90%;
             margin-left: 1em;
             margin-top: 0.5em;
         }
 
         .index-mid-center {
-            height: 230px;
-            width: 70%;
+            height: 290px;
+            width: 90%;
             margin-left: 1em;
             margin-top: 0.5em;
         }
 
         .index-mid-right {
-            height: 230px;
-            width: 70%;
+            height: 290px;
+            width: 90%;
             margin-left: 1em;
             margin-top: 0.5em;
         }
