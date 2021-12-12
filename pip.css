@@ -513,7 +513,7 @@ div.desc {
     form {
         margin: 0;
         width: 350px;
-        padding-left: 0.25em;
+        padding-left: 0.75em;
     }
 
     input, textarea {
@@ -533,7 +533,7 @@ div.desc {
     #container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        padding-left: 3em;
+        padding-left: 3.5em;
         padding-right: 1em;
         text-align: center;
     }
