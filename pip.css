@@ -832,7 +832,7 @@ div.desc {
         }
 
         inside {
-            height: 2100px;
+            height: 2150px;
         }
 
         .index-top-container {
@@ -947,6 +947,10 @@ div.desc {
             padding: 0;
         }
 
+        .flooring-inside {
+            height: 1900px;
+        }
+
         /*FLOORING*/
         .floor-top-container {
             height: 775px;
@@ -968,7 +972,7 @@ div.desc {
         }
 
         .floor-mid-container {
-            height: 680px;
+            height: 470px;
         }
 
         .floor-mid-left {
