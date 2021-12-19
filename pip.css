@@ -484,28 +484,21 @@ div.desc {
     }
 
     .floor-mid-left {
-        width: 32.5%;
-        margin-left: 0.75em;
-        height: 275px;
-        border: none;
-    }
-
-    .floor-mid-center {
-        width: 32.5%;
-        margin-left: 0;
+        width: 40%;
+        margin-left: 4em;
         height: 275px;
         border: none;
     }
 
     .floor-mid-right {
-        width: 32.5%;
-        margin-left: 0;
+        width: 40%;
+        margin-left: 3em;
         height: 275px;
         border: none;
     }
 
     .floor-mid-card {
-        width: 95%;
+        width: 100%;
         margin-top: 0;
         margin-left: 0.29em;
     }
@@ -650,22 +643,15 @@ div.desc {
         }
 
         .floor-mid-left {
-            width: 32.5%;
-            margin-left: 0.75em;
-            height: 275px;
-            border: none;
-        }
-
-        .floor-mid-center {
-            width: 32.5%;
-            margin-left: 0;
+            width: 40%;
+            margin-left: 3.5em;
             height: 275px;
             border: none;
         }
 
         .floor-mid-right {
-            width: 32.5%;
-            margin-left: 0;
+            width: 40%;
+            margin-left: 3em;
             height: 275px;
             border: none;
         }
